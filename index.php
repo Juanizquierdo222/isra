@@ -16,7 +16,7 @@
         
 
         <div class="menu container">
-            <a href="#" class="logo" >cineTec</a>
+            <a href="#" class="logo" >cineTecc</a>
             <input type="checkbox" id="menu" />
             <label for="menu">
                 <img src="imagenes/menu.png" class="menu-icono" alt="menu">
@@ -92,9 +92,7 @@
                     <img src="imagenes/4.jpg" alt="">
                     <h3>Pelicula hd</h3>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Nobis similique sint ab voluptatum deserunt, perspiciatis 
-                        oluptate voluptates illo tenetur? Optio libero numquam ex.
+                    Nueva adaptación al cine de los videojuegos de Capcom. La que fue una pujante ciudad sede del gigante farmacéutico Umbrella Corporation, Raccoon City, es ahora un pueblo agonizante del Medio Oeste. El éxodo de la compañía dejó a la ciudad convertida en un erial… con un gran mal gestándose bajo la superficie. Cuando ese mal se desata, un grupo de supervivientes deben unirse para destapar la verdad detrás de Umbrella y sobrevivir a la noche. (FILMAFFINITY)
                     </p>
                 </div>
             </div>
