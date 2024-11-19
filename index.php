@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>peliculas</title>
+    <meta name="description" content="Disfruta de las mejores películas, incluyendo estrenos, películas de acción, y más en cineTecc. Regístrate y accede a un catálogo exclusivo de películas en alta definición.">
+    <meta name="keywords" content="películas, cine, estrenos, películas de acción, cine online, cineTecc, ver películas, streaming de películas">
+    <meta name="author" content="cineTecc">
+    <meta property="og:title" content="cineTecc - Las mejores películas en un solo lugar">
+    <meta property="og:description" content="Explora una amplia colección de películas populares y de estreno. Únete a cineTecc y disfruta del mejor contenido.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
