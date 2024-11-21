@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     
 
     
@@ -42,7 +43,7 @@
         <div class="header-content-container">
 
             <div class="header-1">
-                <img src="imagenes/venom.png" alt="">
+                <img src="imagenes/venom.png" alt="logo">
                 <a href="#" class="btn-2">Ver ahora</a>
                 <div class="header-2">
                     <h1>Las mejores <br> peliculas</h1>
@@ -61,7 +62,8 @@
             <div class="box-1">
                 <div class="content">
                     
-                    <img src="imagenes/1.jpg" alt="">
+                    <img src="imagenes/1.jpg" alt="Poster de Iron Man 3" loading="lazy">
+
                     
                     <h3>Pelicula hd</h3>
                     <p>
@@ -365,15 +367,9 @@
 
         <div class="load-more" id="load-more-3">Cargar mas</div>
 
-    </section>
-
-
-    <a href="#formulario" class="btn-1">Registrate</a>
-
-    <section id="formulario" class="formulario-container">
-    <form method="POST" action="send.php" autocomplete="off" onsubmit="return myFunction()">
+        <section id="formulario" class="formulario-container">
+    <form id="registro" method="POST" action="send.php" autocomplete="off">
         <h2>Regístrate y Crea tu Perfil</h2>
-        
 
         <div class="input-group">
             <div class="input-container">
@@ -387,7 +383,7 @@
             </div>
 
             <div class="input-container">
-                <input type="password" name="password" placeholder="Contraseña" required>
+                <input type="password" id="password" name="password" placeholder="Contraseña" required>
                 <i class="fas fa-lock"></i>
             </div>
 
@@ -403,6 +399,19 @@
         </div>
     </form>
 </section>
+
+<script>
+    document.getElementById("registro").addEventListener("submit", function (event) {
+        const password = document.getElementById("password").value;
+        const regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
+
+        if (!regex.test(password)) {
+            alert("La contraseña debe tener al menos 8 caracteres, incluir mayúsculas, minúsculas y números.");
+            event.preventDefault(); // Detiene el envío del formulario
+        }
+    });
+</script>
+
 
 
 
@@ -434,21 +443,6 @@
         
         }
     </script>
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="script.js"></script>
 </body>

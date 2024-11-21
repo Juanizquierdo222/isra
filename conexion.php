@@ -3,9 +3,9 @@ $host = "localhost";
 $user = "root";  
 $password = "";  
 $dbname = "formulario";
-
+$port = 3307;
 // Crea la conexión
-$conex = mysqli_connect($host, $user, $password, $dbname);
+$conex = mysqli_connect($host, $user, $password, $dbname , $port);
 
 // Verifica la conexión
 if (!$conex) {

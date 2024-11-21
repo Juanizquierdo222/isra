@@ -12,13 +12,9 @@ document.querySelector('#load-more-1').onclick = () => {
     }
     currentItem1 += 4;
     if (currentItem1 >= boxes1.length) {
-        document.querySelector('#load-more-1').style.display = 'none'; sz
+        document.querySelector('#load-more-1').style.display = 'none';
     }
-    
-
 };
-
-
 
 // Función para cargar más películas en la sección 2
 document.querySelector('#load-more-2').onclick = () => {
