@@ -59,30 +59,30 @@
         <hr>
         <div class="box-container-1">
 
-            <div class="box-1">
-                <div class="content">
-                    
-                    <img src="imagenes/1.jpg" alt="Poster de Iron Man 3" loading="lazy">
-
-                    
-                    <h3>Pelicula hd</h3>
-                    <p>
-                        En "Iron Man 3" de Marvel, el descarado pero brillante empresario Tony Stark/Iron Man se enfrentará a un enemigo cuyo poder no conoce límites. Cuando Stark comprende que su enemigo ha destruido su universo personal, se embarca en una angustiosa búsqueda para encontrar a los responsables. Este viaje pondrá a prueba su entereza una y otra vez.
-                    </p>
-                    
-
-                </div>
+        <div class="box-1">
+            <div class="content">
+                <img src="imagenes/1.jpg" alt="Poster de Iron Man 3" loading="lazy">
+                <h3>Pelicula hd</h3>
+                <p>
+                En "Iron Man 3" de Marvel, el descarado pero brillante empresario Tony Stark/Iron Man se enfrentará a un enemigo cuyo poder no conoce límites. Cuando Stark comprende que su enemigo ha destruido su universo personal, se embarca en una angustiosa búsqueda para encontrar a los responsables. Este viaje pondrá a prueba su entereza una y otra vez.
+                </p>
+        
+        
+                <a href="https://www.youtube.com/watch?v=Ga817lEqAoI" target="_blank" class="btn-trailer">Ver Tráiler</a>
             </div>
+        </div>
 
-            <div class="box-1">
-                <div class="content">
-                    <img src="imagenes/2.jpg" alt="">
-                    <h3>Pelicula hd</h3>
-                    <p>
-                        Mucho tiempo después de los eventos sucedidos en Avengers: Endgame, los Guardianes de la Galaxia deben convencer a Thor para que regrese al campo de batalla y se enfrente a un villano empeñado en matar a todas las criaturas divinas en todo el cosmos.
-                    </p>
-                </div>
-            </div>
+        <div class="box-1">
+    <div class="content">
+        <img src="imagenes/2.jpg" alt="Poster de thor" loading="lazy">
+        <h3>Thor Amor y Trueno. 3</h3>
+        <p>
+            Mucho tiempo después de los eventos sucedidos en Avengers: Endgame, los Guardianes de la Galaxia deben convencer a Thor para que regrese al campo de batalla y se enfrente a un villano empeñado en matar a todas las criaturas divinas en todo el cosmos.                                                                                                
+        </p>
+        <!-- Enlace al tráiler -->
+        <a href="https://youtu.be/ZaD7iZR0-5w" target="_blank" class="btn-trailer">Ver Tráiler</a>
+    </div>
+</div>
 
             <div class="box-1">
                 <div class="content">
@@ -91,6 +91,7 @@
                     <p>
                         Thor está preso al otro lado del universo sin su poderoso martillo y se enfrenta a una carrera contra el tiempo. Su objetivo es volver a Asgard y parar el Ragnarok porque significaría la destrucción de su planeta natal y el fin de la civilización Asgardiana a manos de una todopoderosa y nueva amenaza, la implacable Hela.
                     </p>
+                    <a href="https://youtu.be/v7MGUNV8MxU" target="_blank" class="btn-trailer">Ver Tráiler</a>
                 </div>
             </div>
 

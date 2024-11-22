@@ -106,6 +106,34 @@ body {
     width: 70px;
 }
 
+.btn-trailer {
+    display: inline-block;
+    padding: 10px 30px; /* Ajusta el padding para que se vea más grande */
+    background-color: #ff2f28; /* Rojo similar a .btn-1 */
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold; /* Resalta el texto */
+    text-align: center;
+    text-decoration: none; /* Elimina subrayado en el enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 2px solid #ff2f28; /* Borde rojo */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Suaviza los efectos */
+}
+
+/* Efecto al pasar el ratón (hover) */
+.btn-trailer:hover {
+    background-color: #e01c1a; /* Color de fondo más oscuro al hacer hover */
+    border-color: #e01c1a; /* Cambia el borde al pasar el ratón */
+}
+
+/* Estilo para el estado "activo" (cuando se hace clic) */
+.btn-trailer:active {
+    background-color: #ff2f28; /* Mantiene el mismo color de fondo cuando se hace clic */
+    border-color: #ff2f28; /* Mantiene el borde igual */
+    color: #ffffff; /* Mantiene el texto blanco */
+}
+
+
 .btn-1 {
     display: inline-block;
     padding: 7px 20px;
