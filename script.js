@@ -12,7 +12,7 @@ document.querySelector('#load-more-1').onclick = () => {
     }
     currentItem1 += 4;
     if (currentItem1 >= boxes1.length) {
-        document.querySelector('#load-more-1').style.display = 'none'; sz
+        document.querySelector('#load-more-1').style.display = 'none';
     }
     
 
